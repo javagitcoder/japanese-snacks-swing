@@ -253,5 +253,6 @@ public class SnackDesktopApp extends JFrame {
         SwingUtilities.invokeLater(() -> {
             new SnackDesktopApp().setVisible(true);
         });
+        System.out.println("test git");
     }
 }
